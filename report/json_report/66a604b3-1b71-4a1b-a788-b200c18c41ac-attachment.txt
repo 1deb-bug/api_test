@@ -1,0 +1,4 @@
+INFO     root:test_store.py:32 用户ID:1 模块:登录 场景:登录成功 标题:管理员登录成功
+INFO     root:analyse_data.py:28 1.解析请求数据，请求数据为{'method': 'post', 'url': 'http://192.168.10.131:8888/api/private/v1/login', 'headers': None, 'params': None, 'json': None, 'data': {'username': 'admin', 'password': '123456'}, 'files': None}
+INFO     root:send_request.py:15 2.发送http请求，响应数据为{'data': {'id': 500, 'rid': 0, 'username': 'admin', 'mobile': '12345678', 'email': 'adsfad@qq.com', 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzAzODA5OTAsImV4cCI6MTczMDQ2NzM5MH0.6e1B3whD82yyfV7LD_ZdekL62wtRKDHt6YlZOl_rYB8'}, 'meta': {'msg': '登录成功', 'status': 200}}
+INFO     root:asserts.py:14 3.http响应结果断言，预期结果 登录成功 ==实际结果登录成功

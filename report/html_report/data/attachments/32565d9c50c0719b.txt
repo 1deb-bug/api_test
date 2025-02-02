@@ -1,0 +1,4 @@
+INFO     root:test_store.py:32 用户ID:2 模块:用户管理 场景:查询失败 标题:未登录状态，查询用户列表失败
+INFO     root:analyse_data.py:28 1.解析请求数据，请求数据为{'method': 'get', 'url': 'http://192.168.10.131:8888/api/private/v1/users', 'headers': None, 'params': {'pagenum': 1, 'pagesize': 4}, 'json': None, 'data': None, 'files': None}
+INFO     root:send_request.py:15 2.发送http请求，响应数据为{'data': None, 'meta': {'msg': '无效token', 'status': 400}}
+INFO     root:asserts.py:17 3.http响应结果断言，预期结果 无效token ==实际结果{"data":null,"meta":{"msg":"无效token","status":400}}
